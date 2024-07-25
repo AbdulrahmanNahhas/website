@@ -104,7 +104,7 @@ const Control = () => {
   }, []);
 
   return (
-    <div className="h-full flex items-center justify-center bg-secondary/25 rounded-3xl md:rounded-none md:rounded-tl-3xl border md:border-b-0 md:border-r-0 overflow-hidden text-6xl font-semibold sm:pb-[70px] md:pb-0">
+    <div className="h-full flex items-center justify-center text-6xl font-semibold">
       <div className="flex flex-col items-center justify-center gap-4">
         <Button
           ref={upRef}
@@ -140,7 +140,7 @@ const Control = () => {
           <Button
             variant={"outline"}
             size={"lg"}
-            className="text-3xl !font-semibold uppercase py-2 px-4 w-24 h-20 sm:h-24 sm:w-28 rounded-3xl border-border bg-secondary cursor-default flex flex-col sm:gap-1"
+            className="text-3xl !font-semibold uppercase py-2 px-4 w-24 h-20 sm:h-24 sm:w-28 rounded-3xl border-border bg-secondary cursor-default flex flex-col sm:gap-1 hover:bg-secondary/50"
           >
             <span className="text-xs text-[10px] sm:text-[12px] font-light">
               Distance

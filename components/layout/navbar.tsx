@@ -50,7 +50,7 @@ const Navbar = () => {
   }, [owner, repo]);
 
   return (
-    <nav className="h-20 p-4 flex items-center justify-between">
+    <nav className="h-20 p-4 flex items-center justify-between w-full">
       <div className="flex md:gap-5 items-center">
         <div className="px-3">
           <Image

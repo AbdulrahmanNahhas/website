@@ -2,7 +2,7 @@ import React from 'react'
 
 const Settings = () => {
   return (
-    <div className="h-full flex items-center justify-center bg-secondary/25 rounded-tl-2xl border-t border-l overflow-hidden text-6xl font-semibold">
+    <div className="flex items-center justify-center text-6xl font-semibold h-full">
       Coming Soon
     </div>
   )

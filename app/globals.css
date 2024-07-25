@@ -71,6 +71,9 @@
       @apply border-border;
     }
     body {
+      background: url("/background.png");
+      background-size: cover;
+      background-position: center;
       @apply bg-background text-foreground;
     }
   }

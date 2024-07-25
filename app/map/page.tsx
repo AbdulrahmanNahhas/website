@@ -9,7 +9,7 @@ const page = () => {
   }
 
   return (
-    <div className="h-full flex items-center justify-center bg-secondary/25 rounded-2xl mx-1 sm:mx-2 md:m-0  md:rounded-tl-2xl border-t border-l overflow-hidden">
+    <div className="h-full md:h-[calc(100%-24px)] flex items-center justify-centerrounded-2xl md:rounded-2xl overflow-hidden opacity-[0.8] w-full">
      <MyMap lat={position.lat} lng={position.lng} />
     </div>
   )

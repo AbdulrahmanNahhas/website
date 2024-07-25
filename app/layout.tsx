@@ -21,7 +21,6 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={ny(inter.className, "dark h-screen overflow-hidden")}>
-        <Navbar />
         <SidebarLayout>{children}</SidebarLayout>
         <Toaster />
       </body>
