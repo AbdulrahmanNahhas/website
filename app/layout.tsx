@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import { ny } from "@/lib/utils";
-import Navbar from "@/components/layout/navbar";
 import SidebarLayout from "@/components/layout/sidebar";
 import { Toaster } from "@/components/ui/toaster";
 
