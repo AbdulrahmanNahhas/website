@@ -98,7 +98,7 @@ const Control = () => {
       window.removeEventListener("keydown", handleKeyDown);
       window.removeEventListener("keyup", handleKeyUp);
     };
-  }, []);
+  }, [handleKeyDown, handleKeyUp]);
 
   return (
     <div className="flex flex-col h-full">

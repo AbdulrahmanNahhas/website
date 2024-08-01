@@ -10,7 +10,7 @@ import { getSensorData } from "@/lib/api";
 import { useEffect, useState } from "react";
 import Image from "next/image";
 
-const my_Map = () => {
+const MyMap = () => {
   const googleMapsApiKey = process.env.NEXT_PUBLIC_GOOGLE_MAPS_KEY;
   const [sensorData, setSensorData] = useState({
     lat: 0,
@@ -113,13 +113,13 @@ const my_Map = () => {
       >
         {/* <Marker position={{lat: lat, lng: lng}} /> */}
         <AdvancedMarker position={{ lat: sensorData.lat, lng: sensorData.lon }}>
-          <img
+          {/* <img
             src={
               "https://w7.pngwing.com/pngs/107/197/png-transparent-car-transport-vehicle-yellow-automobile-top-view-thumbnail.png"
             }
             width={25}
             height={25}
-          />
+          /> */}
         </AdvancedMarker>
       </Map>
       {/* <ControlPanel /> */}
@@ -127,4 +127,4 @@ const my_Map = () => {
   );
 };
 
-export default my_Map;
+export default MyMap;
